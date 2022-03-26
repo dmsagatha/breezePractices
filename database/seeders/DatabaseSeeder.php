@@ -22,9 +22,8 @@ class DatabaseSeeder extends Seeder
       'password' => Hash::make('superadmin')
     ]);
 
-    Category::factory()->times(10)->create();
+    Category::factory()->times(5)->create();
 
-    // Post::factory(30)->create();
-    Post::factory()->count(30)->make();
+    Post::factory(50)->create();
   }
 }

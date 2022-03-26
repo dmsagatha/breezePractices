@@ -1,0 +1,35 @@
+.table {
+  @apply table-auto border border-b border-gray-300 divide-y divide-gray-300 font-light overflow-hidden;
+}
+
+.table thead {
+  @apply bg-blue-500 text-gray-50 text-xs text-center uppercase font-bold leading-4 tracking-wider;
+}
+
+.table thead tr {
+  @apply align-middle;
+}
+
+.table thead tr th {
+  @apply py-2;
+}
+
+.table tbody {
+  @apply bg-white divide-y divide-gray-300;
+}
+
+.table tbody tr {
+  @apply text-gray-700 text-sm hover:bg-gray-200;
+}
+
+.table tbody tr td {
+  @apply px-4 py-2;
+}
+  
+.select--control {
+  @apply block w-full border-b-2 border-slate-300 bg-transparent text-gray-800 sm:text-sm placeholder-transparent focus:outline-none focus:ring-blue-500 focus:border-blue-500;
+}
+
+.form--control {
+  @apply block p-2 border-b-2 border-slate-300 bg-transparent text-gray-800 sm:text-sm placeholder-transparent focus:outline-none focus:ring-blue-500 focus:border-blue-500;
+}

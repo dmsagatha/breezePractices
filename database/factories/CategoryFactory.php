@@ -12,7 +12,7 @@ class CategoryFactory extends Factory
   public function definition()
   {
     return [
-      'name' => $this->faker->unique()->sentence($nbWords = 3)
+      'name' => $this->faker->unique()->word
     ];
   }
 }
